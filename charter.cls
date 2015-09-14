@@ -20,24 +20,11 @@
 
 %---------- LOAD PACKAGES ----------
 \usepackage{amsmath,amsthm,amssymb}
-\usepackage{amsfonts}
-\usepackage{appendix}
-\usepackage{caption}
-\usepackage{comment}
 \usepackage{color}
-\usepackage{enumerate}
 \usepackage[top=1in,bottom=1in,left=1in,right=1in,vcentering]{geometry}
 \usepackage{float}
-\usepackage{fancyhdr}
-\usepackage{graphicx}
 \usepackage{relsize} 
-\usepackage{booktabs}
-\usepackage{mathrsfs}
-\usepackage{multirow}
-\usepackage{subcaption}
-\usepackage{soul}
 \usepackage{url}
-\usepackage{wrapfig}
 \usepackage[plainpages=false,breaklinks=true,pdfpagelabels=true,pagebackref]{hyperref}
 
 \hypersetup{
