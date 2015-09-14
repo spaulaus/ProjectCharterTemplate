@@ -1,5 +1,5 @@
 \def\filename{charter.cls}
-\def\fileversion{v. 0.0.0}
+\def\fileversion{v. 0.1.0}
 \def\filedate{September 14, 2015}
 \def\contributors{S. V. Paulauskas}
 
@@ -93,10 +93,20 @@
 }
 
 %---------- MACRO TO INSERT SIGNATURE AREA ---------
-\newcommand {\approvalsignature} {
+\newcommand {\approvalsignature}[2] {
 	\section*{Authorization}
 	\label{sec:authorization}
-	Approved by :
+	\noindent
+	Approved By 
+	
+	\vspace{0.75cm}
+	\noindent
+	\begin{tabular}[l]{lcl}
+    \rule{7cm}{1pt} & & Date:\rule{3cm}{1pt}\\
+	#1 & &\\
+	#2 & & 
+	\end{tabular}
+	\vspace{1cm}
 }
 
 %---------- MACRO FOR ADDING TO THE TOC ----------
